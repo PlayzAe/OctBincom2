@@ -2,7 +2,7 @@
  
 #  C# Assignment
 
-An ASP Web Core Api just to render Hello World
+An ASP Web Core MVC to render my portfolio
 
 
 ## Screenshots
