@@ -12,7 +12,7 @@ An ASP Web Core MVC to render my portfolio
 
 ## Acknowledgement
 
- - [Asp.net Core](https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-8.0&WT.mc_id=dotnet-35129-website)
+ - [Asp.net Core](https://learn.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-5.0)
 
 
 ## Lessons Learned
