@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Tax Calculator";
+}
+
+<h2>@ViewData["Title"]</h2>
+<link rel="stylesheet" href="~/css/TaxCalculator.css" asp-append-version="true" />
+<script src="~/js/TaxCalculator.js" asp-append-version="true"></script>
+
+
+<!-- Form to input income -->
+<form method="post">
+    <div class="form-group">
+        <label for="income">Enter your income in naira:</label>
+        <input type="number" id="income" name="income" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Calculate Tax</button>
+</form>
+
+@if (ViewBag.Tax != null)
+{
+    <h3>Your tax is: #@ViewBag.Tax</h3>
+}
